@@ -4,7 +4,7 @@ Python script to add a watermark or logo to images
 ### Requirements
 Pillow:
 ```
-pip install pillow
+python3 -m pip install --upgrade pillow
 ```
 
 [Pillow Docs](https://python-pillow.github.io/)
@@ -28,7 +28,8 @@ These are the valid positions:
 - topright
 - bottomleft
 - bottomright
-- center (if no position is specified, this will be the default)
+- center
+> will default to center
 
 Any other position will result in an error.
 
