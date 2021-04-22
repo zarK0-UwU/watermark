@@ -28,7 +28,8 @@ These are the valid positions:
 - topright
 - bottomleft
 - bottomright
-- center (if no position is specified, this will be the default)
+- center
+> will default to center
 
 Any other position will result in an error.
 
