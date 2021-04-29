@@ -34,7 +34,6 @@ elif len(sys.argv) == 5:
 else:
     path = sys.argv[1]
     lgo = sys.argv[2]
-    pos = "center" 
 
 logo = Image.open(lgo).convert('RGBA')
 logoWidth = logo.width
